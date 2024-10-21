@@ -1,0 +1,25 @@
+table{
+  border: 1px rgb(55, 22, 44)
+}
+table, th, td{
+  border: 1px soid black;
+  border-collaps: collapse;
+  padding: 5px 3px 6px 2px;
+  border-spacing: 5px;
+}
+th{
+  color: yellowgreen;
+  background: black;
+}
+tr:nth-child(event){
+  background: #f1faee;
+}
+tr:nth-child(odd){
+  background-color: #f1faee;
+}
+td{
+  text-align: center;
+}
+th{
+  text-align: left;
+}

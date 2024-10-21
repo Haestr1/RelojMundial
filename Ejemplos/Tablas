@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Factura Supermercado</title>
+    </head>
+    <!--comentarios--
+    <--tr Table--
+    <--td Celdas--
+    <--th Cabecera-->
+    <body>
+        <center><p><h1>Tabla de Compras</h1></p>
+        <table border="5">
+            <tr>
+                <th>Descripcion</th>
+                <th>Cantidad</th>
+                <th>Valor</th>
+                <th>Iva</th>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>450 gr</td>
+                <td>$ 1600</td>
+                <td>$ 309</td> 
+            </tr>
+            <tr>
+                <td>Azucar</td>
+                <td>500 gr</td>
+                <td>$ 2500</td>
+                <td>$ 3475</td> 
+            </tr>
+            <tr>
+                <td>Aceite</td>
+                <td>3000 ml</td>
+                <td>$ 19800</td>
+                <td>$ 3762</td> 
+            </tr>
+            <tr>
+                <td>Frijol</td>
+                <td>1000 gr</td>
+                <td>$ 8500</td>
+                <td>$ 1615</td> 
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>1 Un</td>
+                <td>$ 1500</td>
+                <td>$ 285</td> 
+            </tr>
+            <tr>
+                <td colspan="3">Total Iva</td>
+                <td>$ 9446</td>
+            </tr>
+            <tr>
+                <td colspan="3">Valor Total</td>
+                <td rowspan="2">$ 33900</td>
+            </tr>
+                <td colspan="3">Vuelva Pronto</td>
+            <tr>
+                
+            </tr></center>
+        </table>
+    </body>
+</html>

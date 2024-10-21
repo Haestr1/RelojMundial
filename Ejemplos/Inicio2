@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tablas</title>
+    </head>
+    <!--comentarios--
+    <--!OL Listas Ordenadas--
+    <--!UL Listas Desordenadas--
+    <--!LI Listas Tipo items-->
+    <body>
+        <h1>Listas Ordenadas</h1>
+        <OL>
+            <LI>Item1</LI>
+            <LI>Item2</LI>
+            <LI>Item3</LI>
+        </OL>
+        <h1>Listas Desordenadas</h1>.
+        <UL>
+            <LI>Item1</LI>
+            <LI>Item2</LI>
+            <LI>Item3</LI>
+        </UL>
+        <h1>Listas Tipo Items</h1>
+        <LI>
+            <LI>Item1</LI>
+            <LI>Item2</LI>
+            <LI>Item3</LI>
+        </LI>
+        <h1><strong style="color:rgb(59, 190, 125)">Listas Combinadas</strong></h1>
+        <OL>
+            <LI><strong style="color:red">Item 1</strong></LI>
+            <UL>
+                <LI type="disc"><strong style="color:blue">Opcion A</strong></LI>
+                <LI type="disc"><strong style="color:blue">Opcion B</strong></LI>
+                <LI type="disc"><strong style="color:blue">Opcion C</strong></LI>
+            </UL>
+            <LI><strong style="color:red">Item 2</strong></LI>
+            <OL>
+                <LI><strong style="color:blue">Seleccion A</strong></LI>
+                <LI><strong style="color:blue">Seleccion B</strong></LI>
+                <LI><strong style="color:blue">Seleccion C</strong></LI>
+            </OL>
+            <LI><strong style="color:red">Item 3</strong></LI>
+            <UL>
+                <LI type="disc"><strong style="color:blue">Item A</strong></LI>
+                <LI type="disc"><strong style="color:blue">Item B</strong></LI>
+                <LI type="disc"><strong style="color:blue">Item C</strong></LI>
+            </UL>
+        </OL>
+    </body>
+</html>

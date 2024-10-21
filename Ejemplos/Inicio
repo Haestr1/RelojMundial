@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Prueba</title>
+    </head>
+    <!--comentarios-->
+    <body>
+        <center style="color:purple"><strong>Hola como se encuentran el dia de hoy bienvenidos a mi pagina web.</strong></center>
+        <p>
+            <strong><font color="blue">Sin embargo, los beneficios de los videojuegos</font></strong> incluyen el <s> de habilidades como la atención,<br></s>
+            <b>la creatividad, la memoria, los idiomas y el trabajo en equipo. Los videojuegos facilitan el aprendizaje</b> <br>
+            de <strong style="color:red"> los contenidos educativos y el desarrollo de habilidades cognitivas. </strong>
+            <i>Sin embargo, los beneficios</i><em> de los videojuegos incluyen</em> el de habilidades como la atención,<br>
+            <b>la creatividad, la memoria, los idiomas y el trabajo en equipo. Los videojuegos facilitan el aprendizaje<br>
+            <u>de los contenidos</u> educativos y el desarrollo de habilidades cognitivas.
+        </p>
+        <pre>
+        <ins>Call of Duty es una serie de videojuegos</ins> de disparos en primera persona, de estilo bélico, desarrollada principal e inicialmente por Infinity Ward, Treyarch,<br>
+         <big>Sledgehammer</big> Games y en menor proporción Raven <small>Software y distribuida por Activision.</small> La franquicia <mark>comenzó para computadora personal</mark> y posteriormente fue<br>
+          <p>expandiéndose hacia videoconsolas de sexta y séptima generación, tanto de sobremesa como portátiles, llegando así a lanzar varios juegos derivados de forma<sup> Indice 1 </sup></p><br>
+           <p>paulatina con la serie principal. La serie inicialmente se ambientaba en la Segunda Guerra Mundial, retratando personajes y combates acaecidos durante dicho<sup> Indice 2 </sup></p><br>
+            conflicto bélico. Esto fue cambiando hasta la actualidad, donde los argumentos suceden en ambientes contemporáneos y ficticios, como se puede ver<br>
+             en Call of Duty: Black Ops y Call of Duty: Black Ops Cold War, en la Guerra Fría, o Call of Duty: Modern Warfare,<br>
+              Call of Duty: Modern Warfare 2 y Call of Duty: Modern Warfare 3, ambientados en la Tercera Guerra Mundial; o en futuros tecnológicos como en<br>
+               Call of Duty: Black Ops 2, Call of Duty: Advanced Warfare, Call of Duty: Black Ops 3, Call of Duty: Infinite Warfare y Call of Duty: Black Ops 4.
+        </pre>
+        <q cite="https://www.usco.edu.co/es/">
+            De acuerdo csu se establecio la matricula hola
+        </q>
+    </body>
+</html>

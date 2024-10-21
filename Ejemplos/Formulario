@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <!--comentarios-->
+    <body>
+        <label for="Texto">Nombre: </label>
+        <form id="formula No°1" action="registro.php" method="post">
+        <input type="text" name="Nombre" placeholder="Ingrese Nombre" size="15" minlength="2" maxlength="10" required>
+        <input type="submit" value="Enviar"><br>
+        <label form="password">Contraseña:</label><br>
+        <input type="password" name="Contraseña" placeholder="Ingrese Contraseña" size="15" value="password" minlength="2" maxlength="10" required><br>
+        <label type="email">Correo:</label><br>
+        <input type="email" name="Email" placeholder="Ingrese su correo" required><br>
+        <label type="date">Fecha:</label><br>
+        <input type="date" name="Fecha"><br>
+        <label type="datetie-local">Hora:</label><br>
+        <input type="datetie-local" name="Fecha"><br>
+        <label type="search">Buscar:</label><br>
+        <input type="search" name="Buscar">
+        <input type="color" name="favcolor">
+        <input type="date" name="bday" max="1980-12-31">
+        <input type="number" name="quatity" min="1" max="5">
+        <input type="week" name="weekyear">
+        <input type="month" name="Mes">
+        <input type="file" name="Myfile" accept="pdf">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ejercicio</title>
+        <h1>Universidad Surcolombiana</h1>
+        <hr></hr>
+        <a href="">Inicio</a> |
+        <a href="">Contacto</a> |
+        <a href="">Acerca De</a><br><br>
+        Bienvenidos al modulo de tecnologia web
+    </head>
+    <!--comentarios-->
+    <body>
+    </body>
+</html>

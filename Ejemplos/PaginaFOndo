@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fondo pagina</title>
+    </head>
+    <!--comentarios-->
+    <body style="background-color:rgb(3, 66, 50)">
+        <figure>
+            <center>
+                <img id="BosqueMinimalista" 
+                src="..//Haestri/Img/BosqueMinimalista.jfif" 
+                width="300" heigth="500" 
+                title="Este es un bosque"
+                alt="Imagen de bosque minimalista">
+                <figcaption style="color:rgb(255, 255, 255)">El bosque minimalista es uno de los mas hermosos</figcaption>
+            </center>
+        </figure>
+        <center>
+            <a href="https://www.iberdrola.com/talento/beneficios-videojuegos-aprendizaje"
+            target="_blank" 
+            style="color:rgb(255, 0, 0)"><b>Enlace</b></a>
+            <a href="#Bosque">Inicio</a>
+            <a href="tel +57 3214774190">Telefono</a>
+            <a href="gmail: u20221204571@usco.edu.co">Correo</a>
+            <a href="Tablas" target="_blank">Tablas</a>
+        </center>
+    </body>
+</html>

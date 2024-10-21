@@ -1,0 +1,29 @@
+<table border="1" class="tabla">
+        <caption>Lista de Personas</caption>
+        <tr>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Correos</th>
+        </tr>
+        <tr>
+          <td>Kevin</td>
+          <td>Velandia</td>
+          <td>kevin.velandia@uco.edu.co</td>
+        </tr>
+        <tr>
+          <td>Nicolás</td>
+          <td>Salazar</td>
+          <td>nicolas.salazar@uco.edu.co</td>
+        </tr>
+        <tr>
+          <td>Sergio</td>
+          <td>Maje</td>
+          <td>sergio.maje@uco.edu.co</td>
+        </tr>
+        <tr>
+          <td>Manuela</td>
+          <td>Ramírez</td>
+          <td>manuela.ramirez@uco.edu.co</td>
+        </tr>
+    </table>
+    
