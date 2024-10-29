@@ -1,0 +1,98 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+body{
+    font-family: "sans-serif";
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+    background: #d2d9e4;
+}
+header{
+    padding: 0px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.434);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 3px grey;
+    width: 100%;
+}
+header .Bloque
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.Reloj{
+    display: inline-block;
+    background: #d1dae3;
+    color: #71767f;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 4px;
+    border: 4px solid #cad3dc;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.5),
+                10px 10px 10px rgba(0, 0, 0, 0.1),
+                inset -8px -8px 15px rgba(225, 225, 225, 0.5),
+                inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+#Galeria{
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+}
+.Paises{
+    border-radius: 4px;
+}
+.Bloque{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.Bloque img{
+    width: 70px;
+    height: 35px;
+    top: 50%;
+    left: 50%;
+}
+.Bloque h4{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+.Bloque .SuBloque{
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 111, 111);
+    box-shadow: 0 0 3px pink;
+}
+.Banderas
+{
+    width: 100%;
+}
