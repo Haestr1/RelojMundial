@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="register-form" action="#">
+        <h1>Datos del Dueño</h1>
+        <div class="form-group">
+          <input type="text" id="name" name="name" required maxlength="10">
+          <label for="name">Primer Nombre</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="name" name="name" required maxlength="10">
+          <label for="name">Segundo Nombre</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="lastname" name="lastname" required maxlength="10">
+          <label for="lastname">Primer Apellido</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="lastname" name="lastname" required maxlength="10">
+          <label for="lastname">Segundo Apellido</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="genero" list="generos" required>
+          <label for="genero">Genero</label>
+          <datalist id="generos">
+            <option value="Hombre">
+            <option value="Mujer">
+            <option value="otro">
+          </datalist>
+      </div>
+
+        <div class="form-group">
+          <input type="email" id="email" name="email" required minlength="10">
+          <label for="email">Correo</label>
+        </div>
+
+        <div class="form-group">
+          <input type="telefono" id="tel" name="tel" required minlength="10">
+          <label for="tel">Telefono</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="datetime" name="datetime" required minlength="10">
+          <label for="datetime">Edad</label>
+        </div>
+
+        <div class="form-group">
+          <input type="date" id="fecha" name="fecha" required>   
+          <label for="fecha">Fecha de nacimiento</label>                 
+      </div>
+      
+      <h1>Datos de la Mascota</h1>
+        <div class="form-group">
+          <input type="text" id="name" name="name" required maxlength="10">
+          <label for="name">Nombre</label>
+        </div>
+
+
+        <div class="form-group">
+          <input type="text" id="especie" list="especies" required>
+          <label for="especie">Especie</label>
+          <datalist id="especies">
+            <option value="Perro">
+            <option value="Gato">
+            <option value="Hamster">
+            <option value="Conejo">
+            <option value="Lagarto">
+            <option value="Otro">
+          </datalist>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="genero" list="generos2" required>
+        <label for="genero">Genero</label>
+        <datalist id="generos2">
+          <option value="Macho">
+          <option value="Hembra">
+        </datalist>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="date" name="date" required maxlength="10">
+          <label for="date">Edad</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="color" name="color" required >
+          <label for="color">Colores</label>
+        </div>
+
+        <button type="submit">Registrar Mascota</button>
+
+        <p class="login-link">
+          Gracias por cuidar de tu mascota 
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

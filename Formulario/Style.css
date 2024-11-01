@@ -1,0 +1,164 @@
+:root {
+  --primary-color: #646cff;
+  --background-color: #f4f7fe;
+  --text-color: #213547;
+  --error-color: #ff3e3e;
+  --success-color: #00c853;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("../Formulario/Img/Puppy.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color: var(--text-color);
+}
+
+.container {
+width: 100%;
+max-width: 800px;
+padding: 20px;
+}
+
+.register-form {
+background: white;
+padding: 40px;
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.form-group2 {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 0 4px;
+  color: #666;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+select{
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+option{
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 0 4px;
+  color: #666;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+datalist{
+  color: #666;
+}
+
+input:focus,
+input:valid {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+input:focus + label,
+input:valid + label {
+  top: 0;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #535bf2;
+  transform: translateY(-1px);
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .register-form {
+    padding: 20px;
+  }
+}
