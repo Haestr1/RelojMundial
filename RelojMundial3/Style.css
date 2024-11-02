@@ -13,21 +13,14 @@ body{
     background: #d2d9e4;
 }
 header{
-    padding: 0px 0;
+    height: 70px;
+    display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
     background-color: rgba(255, 255, 255, 0.434);
     backdrop-filter: blur(3px);
     box-shadow: 0 0 3px grey;
     width: 100%;
-}
-header .Bloque
-{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 section{
     position: fixed;
@@ -39,11 +32,8 @@ section{
     justify-content: center;
     align-items: center;
 }
-.Seccion
-{
-    padding-top: 200px;
-    padding-bottom: 60px;
-
+.container{
+    position: relative;
 }
 .Reloj{
     display: inline-block;
